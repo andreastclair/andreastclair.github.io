@@ -22,11 +22,17 @@ Andrea
 
 P.S. Here's what I got from you tonight. I'm only partially satisfied, but I'm not opposed to second chances. Until next time, jQuery. 
 
+This is for the Goodreads site redesign. When you click on a book in your shelf, the modal will pop up with a description of the book. Click "close" and it flips back to the cover. Voila!
+
 <p data-height="268" data-theme-id="0" data-slug-hash="GJGeBz" data-default-tab="result" data-user="andreastclair" class='codepen'>See the Pen <a href='http://codepen.io/andreastclair/pen/GJGeBz/'>GJGeBz</a> by Andrea St. Clair (<a href='http://codepen.io/andreastclair'>@andreastclair</a>) on <a href='http://codepen.io'>CodePen</a>.</p>
 <script async src="//assets.codepen.io/assets/embed/ei.js"></script>
 
+These are tabs for the profile page of the Goodreads redesign. A user can switch between tabs to show the different sections of their page.
+
 <p data-height="268" data-theme-id="0" data-slug-hash="JdZVLx" data-default-tab="result" data-user="andreastclair" class='codepen'>See the Pen <a href='http://codepen.io/andreastclair/pen/JdZVLx/'>JdZVLx</a> by Andrea St. Clair (<a href='http://codepen.io/andreastclair'>@andreastclair</a>) on <a href='http://codepen.io'>CodePen</a>.</p>
 <script async src="//assets.codepen.io/assets/embed/ei.js"></script>
+
+The stars...oh my. This is for the rating system on Goodreads so that users can rate the books that they've read. I managed to get one done, I will hopefully figure out how to get all the way to 5 stars on my second date with jQuery. 
 
 <p data-height="268" data-theme-id="0" data-slug-hash="vOrPEd" data-default-tab="result" data-user="andreastclair" class='codepen'>See the Pen <a href='http://codepen.io/andreastclair/pen/vOrPEd/'>vOrPEd</a> by Andrea St. Clair (<a href='http://codepen.io/andreastclair'>@andreastclair</a>) on <a href='http://codepen.io'>CodePen</a>.</p>
 <script async src="//assets.codepen.io/assets/embed/ei.js"></script>
