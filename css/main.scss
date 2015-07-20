@@ -1,52 +1,336 @@
 ---
-# Only the main Sass file needs front matter (the dashes are enough)
+
 ---
-@charset "utf-8";
 
+@import 'reset';
+@import 'responsive-nav';
+@import 'custom';
 
-
-// Our variables
-$base-font-family: Helvetica, Arial, sans-serif;
-$base-font-size:   16px;
-$small-font-size:  $base-font-size * 0.875;
-$base-line-height: 1.5;
-
-$spacing-unit:     30px;
-
-$text-color:       #111;
-$background-color: #fdfdfd;
-$brand-color:      #2a7ae2;
-
-$grey-color:       #828282;
-$grey-color-light: lighten($grey-color, 40%);
-$grey-color-dark:  darken($grey-color, 25%);
-
-// Width of the content area
-$content-width:    800px;
-
-$on-palm:          600px;
-$on-laptop:        800px;
-
-
-
-// Using media queries with like this:
-// @include media-query($on-palm) {
-//     .wrapper {
-//         padding-right: $spacing-unit / 2;
-//         padding-left: $spacing-unit / 2;
-//     }
-// }
-@mixin media-query($device) {
-    @media screen and (max-width: $device) {
-        @content;
-    }
+@mixin font($em){
+    font-size: ($em*16) + px;
+    font-size: ($em) + em;
 }
 
 
 
-// Import partials from `sass_dir` (defaults to `_sass`)
-@import
-        "base",
-        "layout",
-        "syntax-highlighting"
-;
+body {
+	background-color: $white;
+	font-family: "jaf-bernina-sans-condensed",sans-serif;
+}
+
+.container {
+	width: 90%;
+	margin: 0 auto;
+}
+
+h1 {
+	@include font(2.5);
+	font-weight: bold;
+	color: $white;
+	font-family: "jaf-bernina-sans-condensed",sans-serif;
+}
+
+h2, li {
+	color: $white;
+	font-weight: bold;
+	@include font(1);
+}	
+
+h3 {
+	font-family: "memoriam-inline-pro",sans-serif;
+	color: $pink;
+	@include font(2.5);
+	line-height: 3;
+}
+
+h4 {
+	color: $black;
+	@include font(1.5);
+	line-height: 2;
+}
+
+span {
+	font-family: "jaf-bernina-sans-condensed",sans-serif;
+	color: $pink;
+	@include font(0.5);
+}
+
+p {
+	@include font(1);
+	color: $white;
+	line-height: 1.4;
+}
+
+a {
+	text-decoration: none;
+	color: $white;
+}
+
+a:hover {
+	color: $pink;
+}		
+
+
+// ===============================
+// Header
+// ===============================
+
+header {
+	position: fixed;
+	width: 100%;
+	// height: 100px;
+	background-color: $dkgrey;
+	border-bottom: 8px solid $ltgreen;
+	z-index: 100;
+	padding-bottom: 15px;
+	.logo {
+		width: 80px;
+		border-radius: 50px;
+		display: block;
+		margin: 30px auto;
+		border: 5px solid $ltgreen;
+	}
+	h1 {
+		text-align: center;
+		text-transform: uppercase;
+		line-height: 0.6;
+	}
+	span {
+		text-transform: uppercase;
+		color: $pink;
+		text-align: center;
+	}
+	nav {
+		text-align: center;
+		padding: 15px 0;
+		li {
+			display: inline;
+			margin: 0 2%;
+			font-weight: normal;
+		}
+	}	
+}
+
+// ===============================
+// Projects
+// ===============================
+
+.wall {
+	background: url("../images/wall4.jpg");
+	background-size: cover;
+	height: 1320px;
+}
+
+.all-projects {
+	text-align: center;
+	padding-top: 160px;
+	margin-bottom: 50px;
+	.project {
+		display: inline;
+		img {
+			width: 275px;
+			border-radius: 200px;
+			margin: 3% 3%;
+			border: 10px solid $ltgreen;
+			-webkit-filter: grayscale(1);
+  			filter: grayscale(1);
+  			-webkit-filter: grayscale(1);
+			-moz-filter: grayscale(1);
+			-o-filter: grayscale(1);
+			-ms-filter: grayscale(1);
+  		}
+		img:hover {
+			filter: grayscale(0);
+			-webkit-filter: grayscale(0);
+			-moz-filter: grayscale(0);
+			-o-filter: grayscale(0);
+			-ms-filter: grayscale(0);
+		}	
+		
+	}
+}
+
+// ===============================
+// Blog
+// ===============================
+
+.pillows {
+	background: url("../images/pillows.jpg");
+	background-size: cover;
+	padding-top: 150px;
+	background-repeat: no-repeat;
+}
+
+section {
+	// padding-top: 200px;
+	padding-bottom: 550px;
+	h3 {
+		text-align: center;
+		margin-bottom: 25px;
+	}
+	.row {
+		margin-bottom: 60px;
+		.preview {
+			width: 20%;
+			display: inline-block;
+			margin: 0 2.4%;
+			vertical-align: top;
+			h2 {
+				color: $ltgreen;
+				margin-bottom: 10px;
+			}
+			h2:hover {
+				color: $pink;
+			}
+			p {
+				color: $black;
+			}
+		}	
+	}
+}
+
+// ===============================
+// Post
+// ===============================
+
+.blog-title {
+	padding-top: 200px;
+	padding-bottom: 100px;
+	margin: 0 auto;
+	width: 70%;
+	h2 {
+		color: $ltgreen;
+		@include font(3);
+	}
+	p {
+		color: $black;
+	}
+}
+
+// ===============================
+// Project
+// ===============================
+
+.project {
+	padding-top: 200px;
+	padding-bottom: 100px;
+	margin: 0 auto;
+	text-align: center;
+	width: 70%;
+	h2 {
+		color: $ltgreen;
+		@include font(3);
+	}
+	p {
+		color: $black;
+		text-align: left;
+		margin: 20px auto;
+		width: 70%;
+	}
+	a {
+		text-decoration: underline;
+		color: $black;
+	}
+	a:hover {
+		color: $pink;
+	}
+	.desktop {
+		width: 500px;
+		margin: 60px;
+	}
+	.desktop2 {
+		width: 100%;
+		margin: 60px auto;
+	}
+	.phone {
+		width: 33%;
+		margin: 0 60px;
+	}
+}
+
+// ===============================
+// About
+// ===============================
+
+.cat {
+	background: url("../images/cat.jpg");
+	background-size: cover;
+	height: 1000px;
+	width: 100%;
+}
+
+.about-me-intro {
+	width: 500px;
+	position: relative;
+	top: 175px;
+	left: 55%;
+	p {
+		color: $black;
+		margin-top: -25px;
+		margin-left: 270px;
+	}
+}
+
+// ===============================
+// Footer
+// ===============================
+
+footer {
+	position:fixed;
+  	left:0px;
+  	bottom:0px;
+  	height:350px;
+  	width:100%;
+	background-color: $dkgrey;
+	border-top: 8px solid $ltgreen;
+	padding: 25px;
+	.details {
+		width: 90%;
+		text-align: center;
+		margin-top: 20px;
+		h2 {
+			margin-bottom: 5px;
+			color: $pink;
+		}
+		.about {
+			text-align: left;
+			vertical-align: top;
+			margin-bottom: 35px;
+			.link {
+				color: $ltgreen;
+				@include font(1);
+			}
+		}
+		.contact {
+			text-align: left;
+			vertical-align: top;
+			margin-bottom: 35px;
+			}		
+		.follow {
+			text-align: left;
+			vertical-align: top;
+			margin-bottom: 35px;
+			img {
+				width: 40px;
+				margin-right: 10px;
+				margin-top: 6px;
+			}
+			img:hover {
+				filter: saturate(0%);
+				-webkit-filter: saturate(0%);
+				-moz-filter: saturate(0%);
+				-o-filter: saturate(0%);
+				-ms-filter: saturate(0%);
+			}
+		}
+	}
+}
+
+@import 'max-media';
+@import 'mid-media'
+
+
+
+
+
+
