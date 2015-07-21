@@ -2,6 +2,7 @@
 layout: post
 title:  "Sassy Math"
 date:   2015-06-14
+excerpt: When I chose design as a career, one of the perks was that I would never have to do math again. WRONG.
 ---
 When I chose design as a career, one of the perks was that I would never have to do math again. WRONG. This week, I've had to clear out the cobwebs and get my algebra on in the form of @mixin(s). So far so good, but if they bring in calculus, I might run. 
 

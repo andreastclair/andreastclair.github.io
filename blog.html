@@ -1,56 +1,28 @@
 ---
 layout: default
 ---
-
-<!-- <div class="blog-posts">
-	<h1>Blog Posts</h1>
-	{% for project in site.pages %}
-		<a href="{{project.url}}">{{project.item-title}}</a>
-		<img src"{{project.img}}" />
-	{% endfor %}	
-	{{content}}
-</div> -->
-
 <div class="pillows">
+<div class="container entries">
 
-	<div class="container">
-		<section>
-			<h3>Let&#39;s talk about design <span>(and probably some other things)</span></h3>
-			<div class="row">
-				<div class="preview">
-					<a href="post.html"><h2>I WANNA LOVE YOU, BUT I KIND OF HATE YOU</h2></a>
-					<p>I&#39;m just a girl, standing in front of a javascript library, asking it to click with her.</p>
-				</div>
-				<div class="preview">
-					<a href="#"><h2>ME vs THE MACHINE</h2></a>
-					<p>At the beginning of this week, I was losing to the machines. But I&#39;ve had my redemption. Until next time, technology. Looks like I won this round.</p>
-				</div>
-				<div class="preview">
-					<a href="#"><h2>WITH A PRETTY BOW ON TOP</h2></a>
-					<p>Some of Austin&#39;s finest dining opportunities lack websites that reflect their unique style, excellent food, and local appeal. It&#39;s time to change that.</p>
-				</div>
-				<div class="preview">
-					<a href="#"><h2>GETTIN GRIDDY WITH IT</h2></a>
-					<p>Map out the grids for 10 different websites. Be clean, but not too clean. We were encouraged to not use rulers, but the perfectionist in me just can&#39;t resist a straight line.</p>
-				</div>
-			</div>
-			<div class="row">	
-				<div class="preview">
-					<a href="#"><h2>SASSY MATH</h2></a>
-					<p>When I chose design as a career, one of the perks was that I would never have to do math again. WRONG.</p>
-				</div>
-				<div class="preview">
-					<a href="#"><h2>MAKING THE TERMINAL PURR IN THE TIME WARP</h2></a>
-					<p>The terminal isn&#39;t as scary as I thought. It should be called &ldquo;the kitten&rdquo; instead.</p>
-				</div>
-				<div class="preview">
-					<a href="#"><h2>FIRST DAY JITTERS</h2></a>
-					<p>Anxiously awaiting the day that I could walk out of my paper-pushing cubicle and never look back.</p>
-				</div>
-			</div>	
-		</section>	
-	</div>
+<h3>Let&#39;s talk about design <span>(and probably some other things)</span></h3>
 
+  <ul class="post-list">
+    {% for post in site.posts %}
+      <li class="preview">
+        <h2>
+          <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+        </h2>
+        <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
+        <p> {{ post.excerpt }} </p>
+      </li>
+    {% endfor %}
+  </ul>
+
+  <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
+
+
+			
+</div>
 </div>
 
 

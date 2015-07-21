@@ -2,6 +2,7 @@
 layout: post
 title:  "Gettin' Griddy With It"
 date:   2015-06-15 
+excerpt: Map out the grids for 10 different websites. Be clean, but not too clean. We were encouraged to not use rulers, but the perfectionist in me just can't resist a straight line.
 ---
 Today's assignment : Map out the grids for 10 different websites. Be clean, but not _too_ clean. We were encouraged to not use rulers, but the perfectionist in me just can't resist a straight line.
 

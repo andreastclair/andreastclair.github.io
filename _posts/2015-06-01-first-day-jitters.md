@@ -2,6 +2,7 @@
 layout: post
 title:  "First Day Jitters"
 date:   2015-06-01 
+excerpt: I set my countown months before, anxiously awaiting the day that I could walk out of my paper-pushing cubicle and never look back. 
 ---
 This week, I started a new journey in my life. I became an official UI student at The Iron Yard. I was so excited for my first day of school. I set the countown app on my phone months before and had been watching the number slowly decrease from the triple digits, anxiously awaiting the day that I could walk out of my paper-pushing cubicle and never look back. 
 

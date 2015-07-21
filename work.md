@@ -1,5 +1,5 @@
 ---
-layout: work
+layout: default
 permalink: /work/
 title: Work
 ---
