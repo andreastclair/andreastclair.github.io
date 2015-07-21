@@ -68,7 +68,11 @@ a {
 
 a:hover {
 	color: $pink;
-}		
+}	
+
+a:active {
+	color: $pink;
+}	
 
 
 // ===============================
@@ -123,15 +127,16 @@ header {
 
 .all-projects {
 	text-align: center;
-	padding-top: 160px;
+	padding-top: 280px;
 	margin-bottom: 50px;
+	color: red;
 	.project {
 		display: inline;
 		img {
 			width: 275px;
 			border-radius: 200px;
 			margin: 3% 3%;
-			border: 10px solid $ltgreen;
+			border: 10px solid $dkgrey;
 			-webkit-filter: grayscale(1);
   			filter: grayscale(1);
   			-webkit-filter: grayscale(1);
@@ -276,10 +281,10 @@ section {
 // ===============================
 
 footer {
-	position:fixed;
-  	left:0px;
-  	bottom:0px;
-  	height:350px;
+	// position:fixed;
+ //  	left:0px;
+ //  	bottom:0px;
+ //  	height:350px;
   	width:100%;
 	background-color: $dkgrey;
 	border-top: 8px solid $ltgreen;
@@ -326,8 +331,12 @@ footer {
 	}
 }
 
+@import 'mid-media';
+@import 'mid2-media';
+@import 'mid3-media';
 @import 'max-media';
-@import 'mid-media'
+
+
 
 
 

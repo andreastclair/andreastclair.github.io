@@ -1,68 +1,9 @@
-@media screen and (min-width: 800px) {
+@media screen and (min-width: 1000px) {
 
 @mixin font($em){
     font-size: ($em*16) + px;
     font-size: ($em) + em;
 }
-
-
-
-body {
-	background-color: $white;
-	font-family: "jaf-bernina-sans-condensed",sans-serif;
-}
-
-.container {
-	width: 90%;
-	margin: 0 auto;
-}
-
-h1 {
-	@include font(2.5);
-	font-weight: bold;
-	color: $white;
-	font-family: "jaf-bernina-sans-condensed",sans-serif;
-}
-
-h2, li {
-	color: $white;
-	font-weight: bold;
-	@include font(1);
-}	
-
-h3 {
-	font-family: "memoriam-inline-pro",sans-serif;
-	color: $pink;
-	@include font(2.5);
-	line-height: 3;
-}
-
-h4 {
-	color: $black;
-	@include font(1.5);
-	line-height: 2;
-}
-
-span {
-	font-family: "jaf-bernina-sans-condensed",sans-serif;
-	color: $pink;
-	@include font(0.4);
-}
-
-p {
-	@include font(1);
-	color: $white;
-	line-height: 1.4;
-}
-
-a {
-	text-decoration: none;
-	color: $white;
-}
-
-a:hover {
-	color: $pink;
-}		
 
 
 // ===============================
@@ -74,13 +15,6 @@ header {
 	width: 100%;
 	height: 105px;
 	padding-bottom: 15px;
-	.nav-collapse {
-		font-family: "jaf-bernina-sans-condensed",sans-serif;
-		@include font(.8);
-		width: 200px;
-		margin-top: 5px;
-		padding-right: 2%;
-	}
 	.logo {
 		position: relative;
 		top: 50px;
@@ -92,12 +26,9 @@ header {
 		// display: inline;
 		text-align: left;
 		line-height: 0;
-		padding-left: 17%;
+		padding-left: 15%;
 		padding-bottom: 6px;
 		// background-color: red;
-	}
-	span {
-		@include font(.6);
 	}
 	nav {
 		// text-align: right;

@@ -1,4 +1,4 @@
-@media screen and (min-width: 800px) {
+@media screen and (min-width: 1100px) {
 
 @mixin font($em){
     font-size: ($em*16) + px;
@@ -75,11 +75,7 @@ header {
 	height: 105px;
 	padding-bottom: 15px;
 	.nav-collapse {
-		font-family: "jaf-bernina-sans-condensed",sans-serif;
-		@include font(.8);
-		width: 200px;
-		margin-top: 5px;
-		padding-right: 2%;
+		@include font(1);
 	}
 	.logo {
 		position: relative;
@@ -92,12 +88,9 @@ header {
 		// display: inline;
 		text-align: left;
 		line-height: 0;
-		padding-left: 17%;
+		padding-left: 14%;
 		padding-bottom: 6px;
 		// background-color: red;
-	}
-	span {
-		@include font(.6);
 	}
 	nav {
 		// text-align: right;
