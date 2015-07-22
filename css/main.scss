@@ -178,26 +178,36 @@ header {
 		font-weight: bold;
 	}
 }
-		.preview {
-			width: 90%;
-			display: inline-block;
-			margin: 0 2.4%;
-			vertical-align: top;
-			h2 a, h2 a:visited {
-				color: $ltgreen;
-				font-weight: bold;
-				margin-bottom: 10px;
-				margin-top: 30px;
-				@include font(1.2);
-			}
-			h2 a:hover {
-				color: $pink;
-			}
-			p {
-				color: $black;
-				margin-bottom: 30px;
-			}
-		}	
+
+.preview {
+	width: 90%;
+	display: inline-block;
+	margin: 0 2.4%;
+	vertical-align: top;
+	h2 a {
+		color: $ltgreen;
+		font-weight: bold;
+		text-transform: uppercase;
+		margin-bottom: 10px;
+		margin-top: 30px;
+		@include font(1.2);
+	}
+	h2 a:hover {
+		color: $pink;
+	}
+	.post-meta {
+		@include font(1);
+		line-height: 1.6;
+	}
+	p {
+		color: $black;
+		margin-bottom: 30px;
+	}
+}
+
+.rss-subscribe, a {
+	color: $pink;
+}	
 
 
 // ===============================
@@ -207,7 +217,8 @@ header {
 .post-title {
 	padding-top: 230px;
 	padding-bottom: 20px;
-	margin: 0 auto;
+	// margin: 0 auto;
+	padding-left: 0;
 	color: $ltgreen;
 	text-transform: uppercase;
 }
@@ -225,20 +236,17 @@ img {
 // ===============================
 
 .project {
-	padding-top: 200px;
-	padding-bottom: 100px;
-	margin: 0 auto;
+	padding-top: 230px;
 	text-align: center;
-	width: 70%;
 	h2 {
 		color: $ltgreen;
 		@include font(3);
+		font-weight: bold;
 	}
 	p {
 		color: $black;
 		text-align: left;
 		margin: 20px auto;
-		width: 70%;
 	}
 	a {
 		text-decoration: underline;
@@ -248,8 +256,8 @@ img {
 		color: $pink;
 	}
 	.desktop {
-		width: 500px;
-		margin: 60px;
+		width: 100%;
+		margin: 50px auto;
 	}
 	.desktop2 {
 		width: 100%;

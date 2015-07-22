@@ -88,15 +88,15 @@ header {
 // ===============================
 
 .pillows {
-	background: url("../images/pillows.jpg");
+	background: url("../images/pillows2.jpg");
 	background-size: cover;
 	padding-top: 150px;
-	background-repeat: no-repeat;
 }
 
 .entries {
 	padding-top: 50px;
 	padding-bottom: 550px;
+	z-index: 5;
 	h3 {
 	}
 	.row {
@@ -122,31 +122,10 @@ header {
 // ===============================
 
 .project {
-	padding-top: 200px;
-	padding-bottom: 100px;
-	margin: 0 auto;
-	text-align: center;
-	width: 70%;
-	h2 {
-		color: $ltgreen;
-		@include font(3);
-	}
-	p {
-		color: $black;
-		text-align: left;
-		margin: 20px auto;
-		width: 70%;
-	}
-	a {
-		text-decoration: underline;
-		color: $black;
-	}
-	a:hover {
-		color: $pink;
-	}
+	padding-top: 180px;
 	.desktop {
-		width: 500px;
-		margin: 60px;
+		width: 100%;
+		margin: 60px auto;
 	}
 	.desktop2 {
 		width: 100%;
@@ -154,7 +133,7 @@ header {
 	}
 	.phone {
 		width: 33%;
-		margin: 0 60px;
+		margin: 20px 30px;
 	}
 }
 
