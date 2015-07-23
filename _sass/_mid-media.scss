@@ -45,7 +45,7 @@ header {
 }
 
 // ===============================
-// Projects
+// All Projects
 // ===============================
 
 .wall {
@@ -84,6 +84,27 @@ header {
 }
 
 // ===============================
+// Single Project
+// ===============================
+
+.project {
+	padding-top: 180px;
+	.desktop {
+		width: 100%;
+		margin: 60px auto;
+	}
+	.desktop2 {
+		width: 100%;
+		margin: 60px auto;
+	}
+	.phone {
+		width: 33%;
+		margin: 20px 30px;
+	}
+}
+
+
+// ===============================
 // Blog
 // ===============================
 
@@ -115,26 +136,6 @@ header {
 
 .post-title {
 	padding-top: 130px;
-}
-
-// ===============================
-// Project
-// ===============================
-
-.project {
-	padding-top: 180px;
-	.desktop {
-		width: 100%;
-		margin: 60px auto;
-	}
-	.desktop2 {
-		width: 100%;
-		margin: 60px auto;
-	}
-	.phone {
-		width: 33%;
-		margin: 20px 30px;
-	}
 }
 
 // ===============================

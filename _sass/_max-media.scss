@@ -47,7 +47,7 @@
 	}
 
 // ===============================
-// Projects
+// All Projects
 // ===============================
 
 	.wall {
@@ -86,35 +86,11 @@
 	}
 
 // ===============================
-// Blog
-// ===============================
-
-	.entries {
-		// padding-top: 200px;
-		padding-bottom: 550px;
-		h3 {
-		}
-			.preview {
-				width: 26%;
-				margin: 0 3%;
-				vertical-align: top;
-				h2 {
-					@include font(1.5);
-				}
-			}	
-		
-	}
-
-// ===============================
-// Post
-// ===============================
-
-// ===============================
-// Project
+// Single Project
 // ===============================
 
 	.project {
-		padding-top: 200px;
+		padding-top: 150px;
 		padding-bottom: 100px;
 		margin: 0 auto;
 		text-align: center;
@@ -149,6 +125,31 @@
 			margin: 30px 45px;
 		}
 	}
+
+// ===============================
+// Blog
+// ===============================
+
+	.entries {
+		// padding-top: 200px;
+		padding-bottom: 550px;
+		h3 {
+		}
+			.preview {
+				width: 26%;
+				margin: 0 3%;
+				vertical-align: top;
+				h2 {
+					@include font(1.5);
+				}
+			}	
+		
+	}
+
+// ===============================
+// Post
+// ===============================
+
 
 // ===============================
 // About
