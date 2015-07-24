@@ -336,29 +336,98 @@ footer {
 				-o-filter: saturate(0%);
 				-ms-filter: saturate(0%);
 			}
-			
+		}	
 	}
 }
 
 // ===============================
 // GR Redesign
 // ===============================
+h6 {
+	font-family: "futura-pt",sans-serif;
+  }
 
-	.row {
-		h4 {
-			font-weight: bold;
+
+.style-guide {
+	padding-top: 230px;
+	h2 {
+		color: $ltgreen;
+		@include font(3);
+		font-weight: bold;
+		text-align: center;
+	}
+.row {
+	nav {
+		margin: 25px 0;
+		background-color: $ltgreen;
+		width: 100%;
+		padding: 8px;
+		text-align: center;
+	}
+	a {
+		text-decoration: none;
+		color: $white;
+		&:hover {
+			color: $pink;
 		}
 	}
-
-
+	li {
+		display: inline;
+		margin: 0 8px;
+		line-height: 1.8;
+		font-weight: normal;
+		@include font(0.875);
+	}
+	p {
+		color: $black;
+		font-family: "Arial";
+	}
+	h3 {
+		margin: 0;
+		color: $black;
+		height: 65px;
+		text-align: left;
+		text-transform: uppercase;
+		@include font(1.8);
+		p {
+			width: 100%; 
+		}
+	}
+	h4 {
+		text-align: left;
+		margin-top: 30px;
+		font-weight: bold;
+	}
+	.box {
+		width: 70px;
+		height: 70px;
+		padding: 10px;
+		display: inline-block;
+	}
+	.one {
+		background-color: $grblue;
+	}
+	.two {
+		background-color: $grorange;
+	}
+	.three {
+		background-color: $gryellow;
+	}
+	.four {
+		background-color: $grgrey;
+	}
+	.five {
+		background-color: $grpurple;
+	}
 }
+}
+
+
 
 @import 'mid-media';
 @import 'mid2-media';
 @import 'mid3-media';
 @import 'max-media';
-
-
 
 
 
