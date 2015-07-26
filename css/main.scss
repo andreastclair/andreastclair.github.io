@@ -447,6 +447,7 @@ h6 {
 			height: 70px;
 			padding: 10px;
 			display: inline-block;
+			margin-top: 10px;
 		}
 		.one {
 			background-color: $grblue;
@@ -465,6 +466,14 @@ h6 {
 		}
 		.icons {
 			margin: 5px 0 20px 0;
+			max-width: 500px;
+		}
+		.icons-full {
+			margin: 5px 0 20px 0;
+		}
+		.icons-small {
+			margin: 5px 0 20px 0;
+			max-width: 100px;
 		}
 		.col {
 			background-color: $grgrey;
