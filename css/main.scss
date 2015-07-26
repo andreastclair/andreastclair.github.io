@@ -343,6 +343,13 @@ footer {
 // ===============================
 // GR Redesign
 // ===============================
+
+.horiz-line {
+	width: 100%;
+	border-top: 1px solid $grgrey;
+	margin: 38px 0 0 0;
+}
+
 h6 {
 	font-family: "futura-pt",sans-serif;
 	line-height: 1.6;
@@ -402,153 +409,152 @@ h6 {
 		font-weight: bold;
 		text-align: center;
 	}
-	.row {
-		nav {
-			margin: 25px 0;
-			background-color: $ltgreen;
-			padding: 8px;
-			text-align: center;
-		}
-		a {
-			text-decoration: none;
-			color: $white;
-			&:hover {
-			color: $pink;
-			}
-		}
-		li {
-			display: inline;
-			margin: 0 8px;
-			line-height: 1.8;
-			font-weight: normal;
-			@include font(0.875);
-		}
-		p {
-			color: $black;
-			font-family: "Arial";
-		}
-		h3 {
-			margin: 0;
-			color: $black;
-			height: 65px;
-			text-align: left;
-			text-transform: uppercase;
-			@include font(1.8);
-			p {
-				width: 100%; 
-			}
-		}
-		h4 {
-			text-align: left;
-			margin-top: 30px;
-			font-weight: bold;
-		}
-		// COLORS
-		.box { 
-			width: 70px;
-			height: 70px;
-			padding: 10px;
-			display: inline-block;
-			margin-top: 10px;
-		}
-		.one {
-			background-color: $grblue;
-		}
-		.two {
-			background-color: $grorange;
-		}
-		.three {
-			background-color: $gryellow;
-		}
-		.four {
-			background-color: $grgrey;
-		}
-		.five {
-			background-color: $grpurple;
-		}
-
-		// ICONS
-		.icons {
-			margin: 5px 0 20px 0;
-			max-width: 500px;
-		}
-		.icons-full {
-			margin: 5px 0 20px 0;
-		}
-		.icons-small {
-			margin: 5px 0 20px 0;
-			max-width: 100px;
-		}
-
-		// GRID
-		.col {
-			background-color: $grgrey;
-			display: inline-block;
-			padding: 5px;
-			text-align: center;
-			margin: 5px 0 20px 0;
-		}
-		.full {
-			width: 91%;
-		}
-		.left {
-			width: 30%;
-		}
-		.right {
-			width: 60%;
-		}
-		.left-3 {
-			width: 20%;
-		}
-		.right-9 {
-			width: 70%;
-		}
-
-		// ACTIVE
-		.cog {
-			width: 40px;
-			display: block;
-			margin: 10px 0;
-		}
-
-		// BUTTONS
-		.buttons {
-			height: 30px;
-			width: 70px;
-			margin-top: 5px;
-		}
-
-		// USER IMAGES
-		.avatar {
-			background-color: $grgrey;
-			padding: 10px;
-			margin: 5px 10px 30px 0;
-			text-align: left;
-			font-family: "Arial";
-			@include font(0.8);
-			border-radius: 15%;
-		}
-		.user-mobile-home {
-			height: 45px;
-			width: 45px;
-		}
-		.user-desktop-home {
-			height: 48px;
-			width: 48px;
-		}
-		.user-mobile-profile {
-			height: 52px;
-			width: 52px;
-		}
-		.user-desktop-profile {
-			height: 88px;
-			width: 88px;
-		}
-		.friends {
-			height: 31px;
-			width: 31px;
+	nav {
+		margin: 25px 0;
+		background-color: $ltgreen;
+		padding: 8px;
+		text-align: center;
+	}
+	a {
+		text-decoration: none;
+		color: $white;
+		&:hover {
+		color: $pink;
 		}
 	}
+	li {
+		display: inline;
+		margin: 0 8px;
+		line-height: 1.8;
+		font-weight: normal;
+		@include font(0.875);
+	}
+	p {
+		color: $black;
+		font-family: "Arial";
+	}
+	h3 {
+		margin: 0;
+		color: $black;
+		height: 65px;
+		text-align: left;
+		text-transform: uppercase;
+		@include font(1.8);
+		p {
+			width: 100%; 
+		}
+	}
+	h4 {
+		text-align: left;
+		margin-top: 30px;
+		font-weight: bold;
+	}
+	// COLORS
+	.box { 
+		width: 70px;
+		height: 70px;
+		padding: 10px;
+		display: inline-block;
+		margin-top: 10px;
+	}
+	.one {
+		background-color: $grblue;
+	}
+	.two {
+		background-color: $grorange;
+	}
+	.three {
+		background-color: $gryellow;
+	}
+	.four {
+		background-color: $grgrey;
+	}
+	.five {
+		background-color: $grpurple;
+	}
+
+	// ICONS
+	.icons {
+		margin: 5px 0 20px 0;
+		max-width: 500px;
+	}
+	.icons-full {
+		margin: 5px 0 20px 0;
+	}
+	.icons-small {
+		margin: 5px 0 20px 0;
+		max-width: 100px;
+	}
+
+	// GRID
+	.col {
+		background-color: $grgrey;
+		display: inline-block;
+		padding: 5px;
+		text-align: center;
+		margin: 5px 0 20px 0;
+	}
+	.full {
+		width: 91%;
+	}
+	.left {
+		width: 30%;
+	}
+	.right {
+		width: 60%;
+	}
+	.left-3 {
+		width: 20%;
+	}
+	.right-9 {
+		width: 70%;
+	}
+
+	// ACTIVE
+	.cog {
+		width: 40px;
+		display: block;
+		margin: 10px 0;
+	}
+
+	// BUTTONS
+	.buttons {
+		height: 30px;
+		width: 70px;
+		margin-top: 5px;
+	}
+
+	// USER IMAGES
+	.avatar {
+		background-color: $grgrey;
+		padding: 10px;
+		margin: 5px 10px 30px 0;
+		text-align: left;
+		font-family: "Arial";
+		@include font(0.8);
+		border-radius: 15%;
+	}
+	.user-mobile-home {
+		height: 45px;
+		width: 45px;
+	}
+	.user-desktop-home {
+		height: 48px;
+		width: 48px;
+	}
+	.user-mobile-profile {
+		height: 52px;
+		width: 52px;
+	}
+	.user-desktop-profile {
+		height: 88px;
+		width: 88px;
+	}
+	.friends {
+		height: 31px;
+		width: 31px;
+	}
+	
 
 
 }
