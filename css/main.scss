@@ -345,11 +345,56 @@ footer {
 // ===============================
 h6 {
 	font-family: "futura-pt",sans-serif;
-  }
+	line-height: 1.6;
+	@include font(1);
+	.bold {
+		font-weight: bold;
+		line-height: 1.6;
+		color: $black;
+		@include font(1);
+	}
+ }
 
+ span {
+	font-family: "futura-pt",sans-serif;
+ }
+ .header {
+		@include font(2);
+	}
+.logo {
+	font-weight: bold;
+	color: $black;
+	@include font(2);
+	margin-top: 0;
+	line-height: 1;
+}
+.logo2 {
+	@include font(2);
+	color: $black;
+	margin-top: 0;
+	line-height: 1;
+}
+.bold-link {
+	color: $grblue;
+	font-weight: bold;
+	@include font(1.2);
+	margin-top: 5px;
+}
+
+.reg-link {
+	color: $grblue;
+	@include font(1);
+}
+
+.active {
+	color: $grorange;
+	@include font(1);
+}
 
 .style-guide {
 	padding-top: 230px;
+	// width: 60%;
+	// margin: 0 auto;
 	h2 {
 		color: $ltgreen;
 		@include font(3);
@@ -360,7 +405,6 @@ h6 {
 		nav {
 			margin: 25px 0;
 			background-color: $ltgreen;
-			width: 100%;
 			padding: 8px;
 			text-align: center;
 		}
@@ -422,6 +466,39 @@ h6 {
 		.icons {
 			margin: 5px 0 20px 0;
 		}
+		.col {
+			background-color: $grgrey;
+			display: inline-block;
+			padding: 5px;
+			text-align: center;
+			margin: 5px 0 20px 0;
+		}
+		.full {
+			width: 91%;
+		}
+		.left {
+			width: 30%;
+		}
+		.right {
+			width: 60%;
+		}
+		.left-3 {
+			width: 20%;
+		}
+		.right-9 {
+			width: 70%;
+		}
+		.cog {
+			width: 40px;
+			display: block;
+			margin: 10px 0;
+		}
+		.buttons {
+			height: 30px;
+			width: 70px;
+			margin-top: 5px;
+		}
+		
 	}
 
 
