@@ -347,20 +347,23 @@ h6 {
 	font-family: "futura-pt",sans-serif;
 	line-height: 1.6;
 	@include font(1);
-	.bold {
+ }
+
+ .bold {
 		font-weight: bold;
 		line-height: 1.6;
 		color: $black;
 		@include font(1);
-	}
- }
+}
 
- span {
-	font-family: "futura-pt",sans-serif;
- }
+ // span {
+	// font-family: "futura-pt",sans-serif;
+ // }
+
  .header {
 		@include font(2);
 	}
+
 .logo {
 	font-weight: bold;
 	color: $black;
@@ -374,13 +377,13 @@ h6 {
 	margin-top: 0;
 	line-height: 1;
 }
+
 .bold-link {
 	color: $grblue;
 	font-weight: bold;
 	@include font(1.2);
 	margin-top: 5px;
 }
-
 .reg-link {
 	color: $grblue;
 	@include font(1);
@@ -393,8 +396,6 @@ h6 {
 
 .style-guide {
 	padding-top: 230px;
-	// width: 60%;
-	// margin: 0 auto;
 	h2 {
 		color: $ltgreen;
 		@include font(3);
@@ -442,7 +443,8 @@ h6 {
 			margin-top: 30px;
 			font-weight: bold;
 		}
-		.box {
+		// COLORS
+		.box { 
 			width: 70px;
 			height: 70px;
 			padding: 10px;
@@ -464,6 +466,8 @@ h6 {
 		.five {
 			background-color: $grpurple;
 		}
+
+		// ICONS
 		.icons {
 			margin: 5px 0 20px 0;
 			max-width: 500px;
@@ -475,6 +479,8 @@ h6 {
 			margin: 5px 0 20px 0;
 			max-width: 100px;
 		}
+
+		// GRID
 		.col {
 			background-color: $grgrey;
 			display: inline-block;
@@ -497,17 +503,51 @@ h6 {
 		.right-9 {
 			width: 70%;
 		}
+
+		// ACTIVE
 		.cog {
 			width: 40px;
 			display: block;
 			margin: 10px 0;
 		}
+
+		// BUTTONS
 		.buttons {
 			height: 30px;
 			width: 70px;
 			margin-top: 5px;
 		}
-		
+
+		// USER IMAGES
+		.avatar {
+			background-color: $grgrey;
+			padding: 10px;
+			margin: 5px 10px 30px 0;
+			text-align: left;
+			font-family: "Arial";
+			@include font(0.8);
+			border-radius: 15%;
+		}
+		.user-mobile-home {
+			height: 45px;
+			width: 45px;
+		}
+		.user-desktop-home {
+			height: 48px;
+			width: 48px;
+		}
+		.user-mobile-profile {
+			height: 52px;
+			width: 52px;
+		}
+		.user-desktop-profile {
+			height: 88px;
+			width: 88px;
+		}
+		.friends {
+			height: 31px;
+			width: 31px;
+		}
 	}
 
 
