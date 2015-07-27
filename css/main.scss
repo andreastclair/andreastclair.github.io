@@ -391,9 +391,10 @@ h6 {
 	@include font(1.2);
 	margin-top: 5px;
 }
-.reg-link {
+span.reg-link {
 	color: $grblue;
 	@include font(1);
+	font-family: "jaf-bernina-sans-condensed",sans-serif;
 }
 
 .active {
@@ -553,6 +554,45 @@ h6 {
 	.friends {
 		height: 31px;
 		width: 31px;
+	}
+	// BOOKS
+	.book {
+		background-color: $grgrey;
+		margin: 5px 10px 30px 0;
+		padding: 10px;
+		font-family: "Arial";
+	}
+	.mobile-feed {
+		width: 37px;
+		height: 56px;
+	}
+	.desktop-feed {
+		width: 41px;
+		height: 62px;
+	}
+	.desktop-reccs {
+		width: 56px;
+		height: 89px;
+	}
+	.mobile-shelves {
+		width: 200px;
+		height: 311px;
+	}
+	.desktop-shelves {
+		width: 94px;
+		height: 125px;
+	}
+	.mobile-profile {
+		width: 28px;
+		height: 44px;
+	}
+	.desktop-profile {
+		width: 37px;
+		height: 57px;
+	}
+	.desktop-ad {
+		width: 90px;
+		height: 117px;
 	}
 	
 
