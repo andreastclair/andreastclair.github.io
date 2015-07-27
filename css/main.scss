@@ -486,6 +486,10 @@ span.reg-link {
 		margin: 5px 0 20px 0;
 		max-width: 100px;
 	}
+	.ribbon {
+		margin: 5px 0 0 0;
+		max-width: 60px;
+	}
 
 	// GRID
 	.col {
@@ -560,6 +564,7 @@ span.reg-link {
 		background-color: $grgrey;
 		margin: 5px 10px 30px 0;
 		padding: 10px;
+		@include font(0.8);
 		font-family: "Arial";
 	}
 	.mobile-feed {
@@ -594,9 +599,24 @@ span.reg-link {
 		width: 90px;
 		height: 117px;
 	}
-	
-
-
+	// RATINGS
+	.stars {
+		margin-top: 10px;
+	}
+	// SEARCH
+	.search {
+		margin: 5px 0 20px 0;
+	}
+	.mobile {
+		max-width: 70%;
+	}
+	.desktop {
+		max-width: 50%;
+	}
+	.status {
+		max-width: 60%;
+		margin-bottom: 0;
+	}
 }
 
 
