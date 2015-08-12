@@ -11,35 +11,45 @@
 // ===============================
 
 header {
-	height: 105px;
-	padding-bottom: 15px;
-	.nav-collapse {
-		font-family: "jaf-bernina-sans-condensed",sans-serif;
-		@include font(.8);
-		width: 200px;
-		margin-top: 5px;
-		padding-right: 2%;
-	}
-	.logo {
-		position: relative;
-		top: 50px;
-		left: 5%;
-		margin: 0;
-	}
-	h1 {
-		text-align: left;
-		line-height: 0;
-		padding-left: 17%;
-		padding-bottom: 6px;
-	}
-	span {
-		@include font(.6);
+	padding: 2px 0;
+	height: 80px;
+	.name {
+		width: 100%;
+		padding: 0 0 2px 5%;
+		margin: 30px 0 0 0;
+		.logo {
+			visibility: visible;
+			width: 80px;
+			border-radius: 160px;
+			float: left;
+			border: 5px solid $ltgreen;
+			margin-top: -10px;
+		}
+		.name2 {
+			// background-color: red;
+			margin-top: 40px;
+			h1 {
+				text-align: left;
+				margin: 0 0 0 10px;
+				display: inline;
+				// padding-bottom: 2px;
+			}
+			h5 {
+				display: inline;
+				text-align: left;
+			}
+		}
 	}
 	nav {
-		float: right;
-		padding: 0 2% 0 0;
+		width: 200px;
+		position: absolute;
+		top: 15px;
+		right: 20px;
+		// padding: 15px 0;
 		li {
-			margin: 0 1%;
+			display: inline;
+			margin: 0 2%;
+			font-weight: normal;
 		}
 	}	
 }
@@ -88,7 +98,7 @@ header {
 // ===============================
 
 .project {
-	padding-top: 180px;
+	padding-top: 100px;
 	.desktop {
 		width: 100%;
 		margin: 60px auto;
@@ -165,6 +175,35 @@ header {
 // Footer
 // ===============================
 
+
+footer {
+	.details {
+		h2 {
+			margin-bottom: 5px;
+		}
+		.about {
+			width:250px;
+			display: inline-block;
+		}
+		.contact {
+			display: inline-block;
+			margin: 0 40px;
+		}
+		.follow {
+			display: inline-block;
+			img {
+				margin-top: 4px;
+			}
+			img:hover {
+				filter: saturate(0%);
+				-webkit-filter: saturate(0%);
+				-moz-filter: saturate(0%);
+				-o-filter: saturate(0%);
+				-ms-filter: saturate(0%);
+			}
+		}
+	}
+}
 
 
 
