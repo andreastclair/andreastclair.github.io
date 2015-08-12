@@ -31,6 +31,10 @@ body {
 	padding: 50px 0;
 }
 
+.clear-fix {
+	clear: both;
+}
+
 // ==========================
 // TYPOGRAPHY
 // ==========================
@@ -166,6 +170,11 @@ header {
 	padding-top: 180px;
 	margin-bottom: 50px;
 	color: red;
+	h5 {
+		width: 70%;
+		display: block;
+		margin: 0 auto;
+	}
 	.project {
 		display: inline;
 		img {
@@ -214,6 +223,21 @@ header {
 	}
 	a:hover {
 		color: $pink;
+	}
+	.list-container {
+		width: 100%;
+		margin: 0 auto;
+		h4 {
+			text-align: left;
+		}
+		li {
+			color: $black;
+			text-align: left;
+		}
+	}
+	.site-img {
+		width: 80px;
+		margin: 70px auto 0 auto;
 	}
 	.desktop {
 		width: 100%;
