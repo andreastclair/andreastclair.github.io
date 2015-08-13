@@ -1,5 +1,5 @@
 ---
 layout: default
-permalink: /second-position/
+permalink: /second-position-portfolio/
 ---
 
