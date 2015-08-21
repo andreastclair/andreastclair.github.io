@@ -81,8 +81,23 @@
 			color: $pink;
 		}
 		.list-container {
-			width: 70%;
+			width: 90%;
 			margin: 0 auto;
+			h4 {
+				text-align: left;
+			}
+			ul {
+				list-style-type: disc;
+				display: inline-block;
+				float: left;
+				margin: 0 40px 30px 20px;
+				li {
+					color: $black;
+					text-align: left;
+					line-height: 1.8;
+					@include font(1.2);
+				}
+			}
 		}
 		.desktop {
 			width: 650px;
@@ -133,6 +148,25 @@
 		width: 70%;
 		margin: 0 auto;
 	}
+	.list-container {
+			width: 90%;
+			margin: 0 auto;
+			h4 {
+				text-align: left;
+			}
+			ul {
+				list-style-type: disc;
+				display: inline-block;
+				float: left;
+				margin: 0 40px 30px 20px;
+				li {
+					color: $black;
+					text-align: left;
+					line-height: 1.8;
+					@include font(1.2);
+				}
+			}
+		}
 }
 
 // ===============================

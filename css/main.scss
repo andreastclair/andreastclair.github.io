@@ -44,6 +44,11 @@ body {
 	clear: both;
 }
 
+.horiz-line {
+	border-top: 1px solid $ltgreen;
+	margin: 40px auto;
+}
+
 // ==========================
 // TYPOGRAPHY
 // ==========================
@@ -246,11 +251,17 @@ header {
 		h4 {
 			text-align: left;
 		}
-		li {
-			color: $black;
-			text-align: left;
-			line-height: 1.5;
-			@include font(1.2);
+		ul {
+			list-style-type: disc;
+			display: inline-block;
+			float: left;
+			margin: 0 3.9% 30px 3.9%;
+			li {
+				color: $black;
+				text-align: left;
+				line-height: 1.8;
+				@include font(1.2);
+			}
 		}
 	}
 	.site-img {
@@ -271,7 +282,7 @@ header {
 	}
 	.logo {
 		width: 100px;
-		margin: 30px auto 40px auto;
+		margin: 30px auto;
 	}
 	.account {
 		width: 80px;
@@ -381,6 +392,25 @@ img {
 	}
 	p {
 		color: $black;
+	}
+	.list-container {
+		width: 100%;
+		margin: 0 auto;
+		h4 {
+			text-align: left;
+		}
+		ul {
+			list-style-type: disc;
+			display: inline-block;
+			float: left;
+			margin: 0 3.9% 30px 3.9%;
+			li {
+				color: $black;
+				text-align: left;
+				line-height: 1.8;
+				@include font(1.2);
+			}
+		}
 	}
 }
 
