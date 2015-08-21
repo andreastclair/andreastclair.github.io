@@ -301,7 +301,7 @@ header {
 // ===============================
 
 .entries {
-	padding-top: 180px;
+	padding-top: 170px;
 	padding-bottom: 20px;
 	h3 {
 		text-align: center;
@@ -335,6 +335,7 @@ header {
 	p {
 		color: $black;
 		margin-bottom: 30px;
+		@include font(1.2);
 	}
 }
 
