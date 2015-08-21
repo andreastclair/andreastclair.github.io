@@ -233,8 +233,12 @@ header {
 	a:hover {
 		color: $pink;
 	}
-	.ps {
-		outline: 2px solid $black;
+	.desktop-row {
+		margin: 30px auto;
+		.ps {
+			outline: 1px solid $black;
+			max-width: 300px;
+		}
 	}
 	.list-container {
 		width: 100%;
@@ -245,6 +249,8 @@ header {
 		li {
 			color: $black;
 			text-align: left;
+			line-height: 1.5;
+			@include font(1.2);
 		}
 	}
 	.site-img {
@@ -284,11 +290,11 @@ header {
 // ===============================
 
 .entries {
-	padding-top: 200px;
+	padding-top: 180px;
 	padding-bottom: 20px;
 	h3 {
 		text-align: center;
-		margin-bottom: 40px;
+		margin-bottom: 80px;
 		line-height: 1;
 		text-transform: uppercase;
 		font-weight: bold;
