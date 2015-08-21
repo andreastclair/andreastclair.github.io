@@ -12,7 +12,7 @@
 
 header {
 	padding: 2px 0;
-	height: 80px;
+	height: 90px;
 	.name {
 		width: 100%;
 		padding: 0 0 2px 5%;
@@ -74,7 +74,7 @@ header {
 			width: 275px;
 			border-radius: 200px;
 			margin: 3% 3%;
-			border: 10px solid $dkgrey;
+			// border: 10px solid $dkgrey;
 			-webkit-filter: grayscale(1);
   			filter: grayscale(1);
   			-webkit-filter: grayscale(1);
@@ -167,23 +167,8 @@ header {
 // About
 // ===============================
 
-.cat {
-	background: url("../images/cat.jpg");
-	background-size: cover;
-	height: 1000px;
-	width: 100%;
-}
-
-.about-me-intro {
-	width: 500px;
-	position: relative;
-	top: 175px;
-	left: 55%;
-	p {
-		color: $black;
-		margin-top: -25px;
-		margin-left: 270px;
-	}
+.about-container {
+	width: 70%;
 }
 
 // ===============================

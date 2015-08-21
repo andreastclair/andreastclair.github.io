@@ -34,7 +34,7 @@
 				width: 275px;
 				border-radius: 200px;
 				margin: 3% 3%;
-				border: 10px solid $dkgrey;
+				// border: 10px solid $dkgrey;
 				-webkit-filter: grayscale(1);
 	  			filter: grayscale(1);
 	  			-webkit-filter: grayscale(1);
@@ -145,6 +145,18 @@
 			margin-left: 270px;
 		}
 	}
+
+// ===============================
+// About
+// ===============================
+
+.about-container {
+	width: 60%;
+	p {
+		width: 70%;
+		margin: 0 auto;
+	}
+}
 
 // ===============================
 // Footer
