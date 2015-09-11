@@ -16,3 +16,5 @@ As far as UI goes, we should always think of the user. Apple has done an excelle
 There was more opinion about the [Hillary logo](http://www.politico.com/story/2015/04/design-experts-trash-hillary-clintons-new-logo-117100).
 
 What makes people react to one design over another? How can people have such strong opinions about a shade of green, but neutrally accept a new logo that they'll likely see multiple times a day?  
+
+Just some food for thought. Next up, design vs art.
