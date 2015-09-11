@@ -142,6 +142,9 @@ header {
 	padding: 10px 0;
 	height: 140px;
 	position: fixed;
+	a {
+		color: $white;
+	}
 	.name {
 		.logo {
 			visibility: hidden;
@@ -428,11 +431,15 @@ footer {
 	background-color: $dkgrey;
 	border-top: 8px solid $ltgreen;
 	padding: 25px;
+	p {
+		@include font(1);
+	}
 	.details {
 		width: 90%;
 		text-align: center;
 		margin-top: 20px;
 		h2 {
+			@include font(1.4);
 			margin-bottom: 5px;
 			color: $pink;
 		}
