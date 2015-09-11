@@ -2,7 +2,7 @@
 layout: post
 title:  "Design Thoughts"
 date:   2015-09-11 
-excerpt: 
+excerpt: Is design criticism interesting to anyone other than designers?
 ---
 
 Is design criticism interesting to anyone other than designers? Everyone reads movie and book critiques — they're reading to find out if they should watch/read for themselves. But why would any non-designer be interested in reading about design criticism? I understand and respect that without critiques, it may be difficult to know what designs will stand the test of time and how we can grow and progress as individual designers. Do these critiques have a place outside of academia?
