@@ -24,8 +24,9 @@ html {
 
 body {
 	background-color: $white;
-	
-	font-family: "jaf-bernina-sans-condensed",sans-serif;
+	font-family: "source-sans-pro",sans-serif;
+	font-weight: 200;
+	// font-family: "jaf-bernina-sans-condensed",sans-serif;
 	color: $black;
 }
 
@@ -74,6 +75,7 @@ h3 {
 	color: $pink;
 	@include font(2);
 	line-height: 3;
+	font-weight: 400;
 }
 
 h4 {
@@ -108,7 +110,9 @@ li {
 
 span {
 	// font-family: "memoriam-inline-pro",sans-serif;
-	font-family: "jaf-bernina-sans-condensed",sans-serif;
+	font-family: "source-sans-pro",sans-serif;
+	font-weight: 300;
+	// font-family: "jaf-bernina-sans-condensed",sans-serif;
 	color: $pink;
 	@include font(0.875);
 	text-transform: lowercase;
@@ -117,6 +121,7 @@ span {
 a {
 	text-decoration: none;
 	color: $pink;
+	font-weight: 400;
 }
 
 a:hover {
@@ -161,6 +166,7 @@ header {
 			}
 			h5 {
 				text-align: center;
+				font-family: "jaf-bernina-sans-condensed",sans-serif;
 			}
 		}
 	}
@@ -169,6 +175,7 @@ header {
 		li {
 			display: inline;
 			margin: 0 2%;
+			font-family: "jaf-bernina-sans-condensed",sans-serif;
 			// font-weight: normal;
 		}
 	}	
