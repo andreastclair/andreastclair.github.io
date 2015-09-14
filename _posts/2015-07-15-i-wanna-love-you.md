@@ -26,24 +26,16 @@ P.S. Here's what I got from you tonight. I'm only partially satisfied, but I'm n
 <div class="horiz-line"></div>
 <br>
 This is for the Goodreads site redesign. When you click on a book in your shelf, the modal will pop up with a description of the book. Click "close" and it flips back to the cover. Voila!   
-<br>
 [see it on codepen](http://codepen.io/andreastclair/pen/GJGeBz) (not embedding) 
 <br>
+<br>    
 
-
-<br>
-<div class="horiz-line"></div>
 <br>
 These are tabs for the profile page of the Goodreads redesign. A user can switch between tabs to show the different sections of their page.   
-<br> 
 [see it on codepen](http://codepen.io/andreastclair/pen/JdZVLx) (not embedding)
 <br>
 
-
-<br>
-<div class="horiz-line"></div>
-<br>
+<br>  
 The stars...oh my. This is for the rating system on Goodreads so that users can rate the books that they've read. I managed to get one done, I will hopefully figure out how to get all the way to 5 stars on my second date with jQuery.   
-<br>
 [see it on codepen](http://codepen.io/andreastclair/pen/vOrPEd) (not embedding)
 <br>
