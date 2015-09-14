@@ -63,7 +63,7 @@ h1 {
 }
 
 h2 {
-	@include font(1.875);
+	@include font(1.5);
 	line-height: 1.2;
 	font-weight: bold;
 	text-transform: uppercase;
@@ -107,9 +107,11 @@ li {
 }	
 
 span {
+	// font-family: "memoriam-inline-pro",sans-serif;
 	font-family: "jaf-bernina-sans-condensed",sans-serif;
 	color: $pink;
-	@include font(1);
+	@include font(0.875);
+	text-transform: lowercase;
 }
 
 a {
@@ -307,6 +309,7 @@ header {
 	padding-top: 170px;
 	padding-bottom: 20px;
 	h3 {
+		@include font(1.8);
 		text-align: center;
 		margin-bottom: 80px;
 		line-height: 1;
@@ -326,7 +329,7 @@ header {
 		text-transform: uppercase;
 		margin-bottom: 10px;
 		margin-top: 30px;
-		@include font(1.2);
+		@include font(1);
 	}
 	h2 a:hover {
 		color: $pink;
@@ -338,7 +341,7 @@ header {
 	p {
 		color: $black;
 		margin-bottom: 30px;
-		@include font(1.2);
+		@include font(1);
 	}
 }
 
@@ -357,22 +360,27 @@ header {
 // Post
 // ===============================
 
+
 .post-title {
-	padding-top: 230px;
-	padding-bottom: 20px;
+	padding-top: 140px;
+	// padding-bottom: 10px;
 	// margin: 0 auto;
 	padding-left: 0;
 	color: $ltgreen;
+	line-height: 1.4;
 	text-transform: uppercase;
 }
 .post-meta, .post-content {
 	p {
+		@include font(1.3);
 		color: $black;
+		margin-top: -20px;
 	}
 }
 img {
 	width: 100%;
 }
+
 
 // ===============================
 // About

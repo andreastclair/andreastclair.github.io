@@ -6,7 +6,7 @@ excerpt: At the beginning of this week, I was losing to the machines. But I've h
 ---
 How am I supposed to blog when I'm so exhausted?   
 <br>
-_sips on 8th shot of espresso of the day_  
+(sips on 8th shot of espresso of the day)  
 <br>
 I've had a technologically exhausting week.   
 <br>

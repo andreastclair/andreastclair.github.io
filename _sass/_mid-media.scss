@@ -179,8 +179,12 @@ header {
 // Post
 // ===============================
 
-.post-title {
-	padding-top: 130px;
+.post {
+	width: 70%;
+	margin: 0 auto;
+	.post-title {
+		padding-top: 100px;
+	}
 }
 
 // ===============================

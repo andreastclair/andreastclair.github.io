@@ -5,7 +5,8 @@ layout: default
 <div class="post">
 
   <div class="post-container">
-    <h1 class="post-title">{{ page.title }}</h1>
+    <h3 class="post-title">{{ page.title }}</h3>
+    <div class="horiz-line"></div>
     <p class="post-meta">{{ page.date | date: "%b %-d, %Y" }}{% if page.author %} • {{ page.author }}{% endif %}{% if page.meta %} • {{ page.meta }}{% endif %}</p>
 
 
@@ -14,4 +15,4 @@ layout: default
   </article>
 
 </div>
-  </div>
+</div>
