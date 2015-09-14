@@ -15,16 +15,18 @@ This mixin is one that allows you to state your font-size in your style sheet wi
 
 <div class="horiz-line"></div> 
 <br>
-	@mixin font($em) {
+	```	@mixin font($em) {
     	font-size: ($em*16) + px;
     	font-size: ($em) + em;
-	}  
+	}
+	```  
 <div class="horiz-line"></div>  
 <br>
 Write it as:  
-	h1 {
-		@include font(2);
-	 	}  
+	```h1 {
+			@include font(2);
+	 	}
+	 	```  
 <div class="horiz-line"></div>  
 <br>
 That's it! Enjoy a fewer keystroke kind of life. 
