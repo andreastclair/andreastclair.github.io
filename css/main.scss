@@ -456,6 +456,7 @@ footer {
 		h2 {
 			@include font(1.4);
 			margin-bottom: 5px;
+			font-family: "jaf-bernina-sans-condensed",sans-serif;
 			color: $pink;
 		}
 		.info {
@@ -464,7 +465,9 @@ footer {
 			margin-bottom: 35px;
 			.link {
 				color: $ltgreen;
+				font-weight: 400;
 				@include font(1);
+				text-transform: none;
 			}
 			.link:hover {
 				color: $pink;
