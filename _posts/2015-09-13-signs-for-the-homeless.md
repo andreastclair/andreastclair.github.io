@@ -2,7 +2,7 @@
 layout: post
 title:  "Signs for the Homeless"
 date:   2015-09-13
-excerpt:
+excerpt: Nakayama and Hope drew hand lettered signs for the homeless, recreating what was sharpied on the sides of cardboard boxes into carefully penned designs. Their goal was to give the homeless the power to be noticed.
 ---
 
 <br>
