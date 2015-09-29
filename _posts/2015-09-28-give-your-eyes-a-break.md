@@ -2,7 +2,7 @@
 layout: post
 title:  "Give Your Eyes A Break"
 date:   2015-09-28
-excerpt: 
+excerpt: I love to read. And even if it means that my bag is a few pounds heavier, I love to read books on paper.
 ---
 
 
