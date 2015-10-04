@@ -11,7 +11,7 @@ The other volunteers and I sat scattered throughout the gymnasium, leaving space
 <br>
 Once we were settled and the introductions were over, that's when things got real. One by one, the graduates stepped up to the microphone and shared the stories that they had written about themselves. They spoke of everything from neglect and physical abuse to drugs and death.  
 <br>
-One young woman spoke of losing her mother at the age of three to the crack pipe. By the age of six, she was left raising her three younger siblings when mom moved to the streets. She spoke about becoming her daddy's new "wife", and suffering daily beatings. She gladly took the worst of the beatings so that her siblings, whom she calls her children, wouldn't have to. Her father called her names and treated her like garbage. She said, "The only time I felt like daddy loved me was when he was between my legs." She got pregnant when she was 16 and she didn't know if the father was her boyfriend, her one night stand, or her own dad. 
+One young woman spoke of losing her mother at the age of three to the crack pipe. By the age of six, she was left raising her three younger siblings when mom moved to the streets. She spoke about becoming her daddy's new "wife", and suffering daily beatings. She gladly took the worst of the beatings so that her siblings, whom she calls her children, wouldn't have to. Her father called her names and treated her like garbage. She said, "The only time I felt like daddy loved me was when he was between my legs." She got pregnant when she was 16 and she didn't know if the father was her boyfriend, her one night stand, or her own dad.   
 <br>
 Another told us how she was the daughter of her father's favorite whore - that her mom brought in the most money. When her dad died and her mom couldn't balance being a caretaker with a drug addiction, she and her little brother moved in with her aunt and uncle. There, she spent years being raped by her uncle, forced into silence with threats that he would kill everyone she loved if she told. Eventually, she decided that she didn't want to be afraid anymore. That's when she started dealing. She said she wanted to be tough and in control, that she wanted a way to escape the life she was living. The only way she knew how to be the one in charge was to sell the stuff that seemed to control all of the adults around her. Her first customer at the age of 14 was her own mother.  
 <br>
@@ -35,6 +35,7 @@ In the end, we went around the circle and everyone said their name and how they 
 <br>
 I feel relieved.  
 I feel drained.  
+I feel thankful.  
 I feel loved.  
 I feel anxious.   
 I feel strong.  
